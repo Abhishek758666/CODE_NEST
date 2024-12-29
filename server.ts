@@ -1,5 +1,5 @@
 import { app } from "./src/app";
-import { envConfig } from "./src/config/config";
+import { envConfig } from "./src/config/envConfig";
 
 const port = envConfig.port || 4001;
 const server = () =>
